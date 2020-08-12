@@ -50,6 +50,7 @@ public class CalculatorActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_calculator);
 
+        setTitle(R.string.title);
         findViews();
         mTextViewResult.setText(mResult);
         listeners();
